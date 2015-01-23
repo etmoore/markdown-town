@@ -1,0 +1,10 @@
+<main>
+  <section class="md-input">
+    {{textarea id="input" value=markdown placeholder="Write your markdown here..."}}
+  </section>
+  <section class="html-output">
+    {{showdown-addon markdown}}
+  </section>
+</main>
+
+{{outlet}}
